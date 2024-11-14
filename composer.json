@@ -6,13 +6,13 @@
     "license": "MIT",
     "require": {
         "php": "^8.0",
-        "sylius/sylius": "^v2.0",
+        "sylius/sylius": "^2.0",
         "php-http/message-factory": "^1.1",
-        "league/flysystem-bundle": "^2.4"
+        "league/flysystem-bundle": "^3.3"
     },
     "require-dev": {
-        "symfony/webpack-encore-bundle": "^1.15",
-        "behat/behat": "^3.6.1",
+        "symfony/webpack-encore-bundle": "*",
+        "behat/behat": "*",
         "behat/mink-selenium2-driver": "1.4",
         "dmore/behat-chrome-extension": "^1.3",
         "dmore/chrome-mink-driver": "^2.7",
